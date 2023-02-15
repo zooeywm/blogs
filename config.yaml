@@ -1,0 +1,10 @@
+baseURL: "https://zooeywm.github.io/blogs"
+title: "zooeywm's blogs"
+theme: "hugo-book"
+copyright: Everything is mine
+defaultContentLanguage: en-us
+params:
+  navigation:
+    help: Help
+  BookTheme: "auto"
+  BookSearch: false
