@@ -15,7 +15,7 @@ app_secret = os.environ["APP_SECRET"]
 
 # 可把 os.environ 结果替换成字符串在本地调试
 user_ids = os.environ["USER_ID"].split(',')
-template_ids = os.environ["TEMPLATE_ID"].split(',')
+template_id = os.environ["TEMPLATE_ID"]
 
 # 字体随机颜色
 def get_random_color():
@@ -29,5 +29,5 @@ for i in range(len(user_ids)):
     data = {
         "message": {"value": "添加了服务生命周期页面", "color": get_random_color()},
     }
-    res = wm.send_template(user_ids[i], template_ids[i], data)
+    res = wm.send_template(user_ids[i], template_id, data)
     print(res)
