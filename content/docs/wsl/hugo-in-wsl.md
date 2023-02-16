@@ -1,10 +1,10 @@
 ---
-title: "Hugo in Wsl"
+title: "Hugo In Wsl"
 weight: 1
 # bookFlatSection: false
 bookToc: true
 # bookHidden: false
-# bookCollapseSection: false
+# bookCollapseSection: true
 # bookComments: false
 # bookSearchExclude: false
 ---
