@@ -27,7 +27,7 @@ wm = WeChatMessage(client)
 
 for i in range(len(user_ids)):
     data = {
-        "message": {"value": "新增 DevOps 计划。", "color": get_random_color()},
+        "message": {"value": "删除 DevOps 计划", "color": get_random_color()},
     }
     res = wm.send_template(user_ids[i], template_id, data)
     print(res)
